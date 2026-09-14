@@ -56,7 +56,6 @@ python select_stimuli.py
 ## Data source
 
 Gomes, I., Castro, S. L., Lima, C. F., & Mesquita, A. B. (2019). *Porlex v3, uma base lexical do Português*. FPCE-UP. \
-https://sigarra.up.pt/fpceup/pt/web_base.gera_pagina?p_pagina=NCL_DATABASES \
 https://projetoler.pt/texto/porlex
 
 
