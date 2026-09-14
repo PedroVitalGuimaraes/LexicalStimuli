@@ -1,8 +1,7 @@
-# Lexical Stimuli Selection from Porlex
-
+# Lexical Stimuli Selection
 A Python script to select and organize words drawn from the **Porlex v3** lexical database (Gomes, Castro, Lima & Mesquita, 2019).
 
-## What the script does
+## Steps
 
 1. Reads the `Porlex_v3_2019.xlsx` file (sheet `Porlex_v3`).
 2. Filters the words that simultaneously meet:
@@ -20,8 +19,8 @@ A Python script to select and organize words drawn from the **Porlex v3** lexica
 6. Each list of 40 is split into 2 groups of 20:
    - Target Words → **L1** and **L1A**
    - Distractor Words → **L2** and **L2A**
-7. **L1** and **L1A** are further split into 4 blocks of 5 words each, numbered sequentially from **Block 1 to Block 8**.
-8. For **L2** and **L2A** (also in blocks 1 to 8), the following is computed and displayed at the end of each block:
+7. **L1** and **L1A** are further split into 4 blocks of 5 words each, **Block 1 to Block 8**.
+8. For **L2**, **L2A** and **Blocks**, the following is calculated:
    - Mean and standard deviation of **Length**
    - Mean and standard deviation of **Frequency**
    - Distribution of grammatical classes, in the order **Verb, Noun, Adjective**
@@ -59,4 +58,9 @@ python select_stimuli.py
 Gomes, I., Castro, S. L., Lima, C. F., & Mesquita, A. B. (2019). *Porlex v3, uma base lexical do Português*. FPCE-UP. \
 https://sigarra.up.pt/fpceup/pt/web_base.gera_pagina?p_pagina=NCL_DATABASES \
 https://projetoler.pt/texto/porlex
+
+
+Guimarães, P. V. (2022). ***O papel moderador da extroversão no efeito da música na memória episódica***. [Dissertação de Mestrado, Universidade do Porto]. Repositório Aberto da Universidade do Porto.
+[doi:10.34626/ethm-n129](https://doi.org/10.34626/ethm-n129)
+
 
