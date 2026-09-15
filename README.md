@@ -56,7 +56,7 @@ python select_stimuli.py
 ## Data source
 
 Gomes, I., Castro, S. L., Lima, C. F., & Mesquita, A. B. (2019). *Porlex v3, uma base lexical do Português*. FPCE-UP. \
-https://projetoler.pt/texto/porlex \
+https://projetoler.pt/texto/porlex
 
 Guimarães, P. V. (2022). ***O papel moderador da extroversão no efeito da música na memória episódica***. [Dissertação de Mestrado, Universidade do Porto]. Repositório Aberto da Universidade do Porto.
 [doi:10.34626/ethm-n129](https://doi.org/10.34626/ethm-n129)
