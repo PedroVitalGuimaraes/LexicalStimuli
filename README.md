@@ -26,8 +26,8 @@ A Python script to select and organize words drawn from the **Porlex v3** lexica
    - Distribution of grammatical classes, in the order **Verb, Noun, Adjective**
 
 ## Libraries
--openpyxl
--pandas
+- **Pandas**
+- **Statistics**
 
 ## Usage
 
