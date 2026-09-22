@@ -1,40 +1,5 @@
 """
 Script to select and organize lexical stimuli from Porlex v3.
-
-Data source: Porlex v3 (Gomes, Castro, Lima & Mesquita, 2019),
-a lexical database of European Portuguese ("Porlex_v3" sheet).
-
-The script:
- 1. Reads the Porlex v3 Excel file.
- 2. Filters words with:
-      - Nlet (number of letters)      between 7 and 10
-      - CGram (grammatical class)     in {Adjective, Verb, Noun}
-      - FreqL (lexical frequency)     between 38 and 62
- 3. Renames the variables:
-      CGram -> Grammatical Class (G)
-      Nlet  -> Length (C)
-      FreqL -> Frequency (F)
- 4. Randomly selects 80 words from the filtered set.
- 5. Splits the 80 words into two lists of 40:
-      - Target Words
-      - Distractor Words
- 6. Each list of 40 is split into 2 groups: L1, L1A (from the Target list)
-    and L2, L2A (from the Distractor list).
- 7. L1 and L1A are further split into 4 blocks of 5 words (Block 1 to 8,
-    numbered sequentially across L1 then L1A).
- 8. For the L2 and L2A blocks (Block 1 to 8), the following are computed
-    and written at the end of each block:
-      - mean and standard deviation of Length
-      - mean and standard deviation of Frequency
-      - grammatical class distribution (order: Verb, Noun, Adjective)
-
-Requirements: pandas, openpyxl
-    pip install pandas openpyxl
-
-Usage:
-    Place the file "Porlex_v3_2019.xlsx" in the same folder as the script
-    and run:
-    python select_stimuli.py
 """
 
 import random
