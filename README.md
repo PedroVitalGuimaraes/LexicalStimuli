@@ -1,5 +1,6 @@
 # Lexical Stimuli Selection
 A Python script to select and organize words drawn from the **Porlex v3** lexical database.
+Place the [Porlex_v3_2019.xlsx](https://projetoler.pt/texto/porlex) in the same directory than the script.
 
 ## Steps
 
@@ -29,11 +30,6 @@ A Python script to select and organize words drawn from the **Porlex v3** lexica
 - **openpyxl**
 - **Pandas**
 - **Statistics**
-
-## Usage
-
-1. Place the [Porlex_v3_2019.xlsx](https://projetoler.pt/texto/porlex) directory.
-2. Run python script.
 
 ## Generated files
 
