@@ -33,11 +33,7 @@ A Python script to select and organize words drawn from the **Porlex v3** lexica
 ## Usage
 
 1. Place the [Porlex_v3_2019.xlsx](https://projetoler.pt/texto/porlex) directory.
-2. Run:
-
-```bash
-python select_stimuli.py
-```
+2. Run python script.
 
 ## Generated files
 
