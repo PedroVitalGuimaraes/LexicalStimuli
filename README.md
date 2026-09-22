@@ -25,15 +25,13 @@ A Python script to select and organize words drawn from the **Porlex v3** lexica
    - Mean and standard deviation of **Frequency**
    - Distribution of grammatical classes, in the order **Verb, Noun, Adjective**
 
-## Requirements
-
-```bash
-pip install pandas openpyxl
-```
+## Libraries
+-openpyxl
+-pandas
 
 ## Usage
 
-1. Place the `Porlex_v3_2019.xlsx` file in the same folder as the script.
+1. Place the [Porlex_v3_2019.xlsx](https://projetoler.pt/texto/porlex) directory.
 2. Run:
 
 ```bash
@@ -53,7 +51,7 @@ python select_stimuli.py
 | `L2_blocks.txt` | L2 split into Blocks 1–4, with statistics per block |
 | `L2A_blocks.txt` | L2A split into Blocks 5–8, with statistics per block |
 
-## Data source
+## References
 
 Gomes, I., Castro, S. L., Lima, C. F., & Mesquita, A. B. (2019). *Porlex v3, uma base lexical do Português*. FPCE-UP. \
 https://projetoler.pt/texto/porlex
